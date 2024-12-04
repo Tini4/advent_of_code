@@ -34,5 +34,5 @@ def second() -> int:
 
 
 if __name__ == '__main__':
-    print(first())
-    print(second())
+    print(first() == 183380722)
+    print(second() == 82733683)
