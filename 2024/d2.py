@@ -1,6 +1,6 @@
-from main import fetch_lines
-
 from itertools import pairwise
+
+from main import fetch_lines
 
 INPUT: str = 'd2.in'
 

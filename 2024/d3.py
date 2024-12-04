@@ -1,7 +1,6 @@
-from main import fetch_lines
-
 import re
-from itertools import pairwise
+
+from main import fetch_lines
 
 INPUT: str = 'd3.in'
 
@@ -10,7 +9,7 @@ def first() -> int:
     res = 0
     for line in fetch_lines(INPUT):
         for m in re.findall(r'mul\(([0-9]{1,3}),([0-9]{1,3})\)', line):
-            res += int(m[0])*int(m[1])
+            res += int(m[0]) * int(m[1])
 
     return res
 
